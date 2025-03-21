@@ -6,7 +6,7 @@ class Queue:
         self.queue.insert(0, item)
 
     def dequeue(self):
-        self.queue.pop()
+        return self.queue.pop()
 
     def isEmpty(self):
         return len(self.queue) == 0
