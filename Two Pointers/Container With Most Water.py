@@ -1,6 +1,6 @@
 from typing import List
 
-def maxArea(self, arr: List[int]) -> int:
+def maxArea(arr: List[int]) -> int:
     l = 0
     r = len(arr) - 1
     m = 0
