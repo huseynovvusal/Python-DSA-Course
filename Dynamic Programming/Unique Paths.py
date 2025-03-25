@@ -20,7 +20,5 @@ class Solution:
         return memo[(m,n)]
     """
 
-
-
 s = Solution()
 print(s.uniquePaths(2,3))
