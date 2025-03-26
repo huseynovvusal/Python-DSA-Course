@@ -21,3 +21,4 @@ class Solution:
             current_path.append(neighbor)
             self.findPaths(graph, all_paths, current_path, neighbor, target_node)
             current_path.pop()
+            
